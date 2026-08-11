@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <title>DigiCloud</title>
+        <link rel="stylesheet" th:href="@{/assets/bootstrap/css/bootstrap.min.css}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Acme&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Akshar&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Alata&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Angkor&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Anton&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Arbutus&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Archivo+Black&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{https://fonts.googleapis.com/css?family=Audiowide&amp;display=swap}" />
+        <link rel="stylesheet" th:href="@{/assets/css/animate.min.css}" />
+        <link rel="stylesheet" th:href="@{/assets/css/Login-Form-Basic-icons.css}" />
+        <link rel="stylesheet" th:href="@{/assets/css/styles.css}" />
+        <script th:src="@{/assets/js/jquery.min.js}"></script>
+        <script th:src="@{/assets/js/bootbox.js}"></script>
+        <script th:src="@{/assets/js/utils.js}"></script>
+        <script th:src="@{/assets/js/signinForm.js}"></script>
+    </head>
+
+    <body style="background: #efeded">
+        <section class="position-relative py-4 py-xl-5" style="color: #efeded">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card mb-5">
+                            <div class="card-body px-5">
+                                <div class="d-flex justify-content-center"><img class="rubberBand animated" th:src="@{/assets/img/icons8-storage-96.png}" width="71" height="66" /></div>
+                                <div class="d-flex justify-content-center my-3"><label class="form-label" style="font-family: Acme, sans-serif; font-size: 25px">Log in to DigiCloud</label></div>
+                                <form class="text-center" method="post">
+                                    <div class="mb-3"><input class="form-control input-border-round" type="email" id="email" name="email" placeholder="Email" /></div>
+                                    <div class="mb-3"><input class="form-control input-border-round" type="password" id="password" name="password" placeholder="Password" /></div>
+                                    <div class="mb-3"><button class="btn btn-primary d-block w-100" id="login-form-btn" type="button">Login</button></div>
+                                    <div class="d-flex justify-content-between my-3">
+                                        <a href="create-account">Create Account</a>
+                                        <a href="welcome-page">Home Page</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between my-3">
+                                        <a>Forget Password ?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script th:src="@{/assets/bootstrap/js/bootstrap.min.js}"></script>
+        <script th:src="@{/assets/js/bs-init.js}"></script>
+    </body>
+</html>

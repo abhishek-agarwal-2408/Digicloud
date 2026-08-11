@@ -1,0 +1,14 @@
+.image-item:hover,
+.doc-item:hover {
+	text-decoration: underline;
+	color: black;
+	cursor: pointer;
+}
+
+.file-item:hover {
+	cursor: pointer;
+	border: 5px solid aliceblue;
+	border-radius: 5px;
+	text-decoration: underline;
+	color: black;
+}
